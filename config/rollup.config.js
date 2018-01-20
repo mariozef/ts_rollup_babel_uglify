@@ -7,7 +7,7 @@ export default [{
     output: {
         name: 'ts_rollup_babel',
         format: 'umd',
-        file: 'dist/index.bundle.es2015.js'
+        file: 'dist/index.bundle.js'
     },
     plugins: [
         resolve({
