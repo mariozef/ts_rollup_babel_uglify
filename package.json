@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc --p ./config/tsconfig.json"
+    "tsc": "tsc --p ./config/tsconfig.json",
+    "rollup": "rollup --config ./config/rollup.config.js",
+    "clean" : "rmdir /S /Q out && rmdir /S /Q dist",
+    "predist": "npm run clean",
+    "dist": "npm run tsc && npm run rollup"
   },
   "author": "",
   "license": "ISC",
