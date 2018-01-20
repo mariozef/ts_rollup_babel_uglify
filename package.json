@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "rollup": "^0.54.1",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.2",
     "typescript": "^2.6.2"
   }
 }
