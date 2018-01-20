@@ -6,4 +6,10 @@ class B {
     constructor() {
         this.a = new ClassA();
     }
+
+    public init(): void {
+        console.log('init');
+    }
 }
+
+export default B;

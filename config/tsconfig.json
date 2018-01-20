@@ -4,13 +4,13 @@
         "module":"es2015",
         "strict": true,
         "sourceMap": true,
-        "outDir": "./out",
+        "outDir": "../out",
         "pretty": true,
         "typeRoots": [
           "node_modules/@types"
         ]
     },
     "include": [
-        "src"
+        "../src/"
     ]
 }
