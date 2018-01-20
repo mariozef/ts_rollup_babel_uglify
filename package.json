@@ -1,0 +1,16 @@
+{
+  "name": "ts_rollup_babel_uglify",
+  "version": "1.0.0",
+  "description": "Proba polaczenia ts rullup i babel plus uglify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -c ./config/tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.54.1",
+    "typescript": "^2.6.2"
+  }
+}
